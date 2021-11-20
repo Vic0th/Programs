@@ -1,0 +1,1 @@
+beklenendeger_varyans.BeklenenDeger_Varyans
