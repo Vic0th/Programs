@@ -9,6 +9,7 @@ def counter(strin):
     dic = dict(sorted(dic.items(),key = lambda x:x[1], reverse=True))
     return dic
 
+
 class tree:
     def __init__(self):
         self.ch = None
@@ -20,6 +21,7 @@ class tree:
 
     def addRight(self,child):
         self.rightChild = child
+
 
 def makeDict(text):
     counts = counter(text)
