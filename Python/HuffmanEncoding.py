@@ -6,12 +6,8 @@ def counter(strin):
             dic[i] = 0
         dic[i] = dic[i] + 1
 
-    dic = dict(sorted(dic.items(),key = keyER, reverse=True))
+    dic = dict(sorted(dic.items(),key = lambda x:x[1], reverse=True))
     return dic
-
-def keyER(i):
-    return i[1]
-
 
 class tree:
     def __init__(self):
