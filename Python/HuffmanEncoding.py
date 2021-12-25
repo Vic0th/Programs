@@ -68,7 +68,6 @@ def huffmanCoding(text):
     return counts, dic, comp
 
 
-#text = "Yeet the child mate"
 text = input()
 counts, dic, compressed = huffmanCoding(text)
 
@@ -76,3 +75,5 @@ print(f"\nOriginal Text : \n{text}\n")
 print(f"Character Repetitions : \n{counts}\n")
 print(f"Codes : \n{dic}\n")
 print(f"Compressed Text: \n{compressed}")
+
+input()
