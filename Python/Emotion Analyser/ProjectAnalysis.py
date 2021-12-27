@@ -4,12 +4,6 @@ import re
 # -*- coding: utf-8 -*-
 
 
-
-#Furkan Sayan
-#20360859093
-
-
-
 st = stemmer("turkish")
 punc = ",.;:'""?/\\-_!`İ"
 spaces = " " * (len(punc)-1) + "i"
